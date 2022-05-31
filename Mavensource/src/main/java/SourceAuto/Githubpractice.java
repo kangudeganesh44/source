@@ -6,7 +6,7 @@ public class Githubpractice {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Git hub");
-		System.out.println("fghj");
+		System.out.println("");
 
 	}
 
