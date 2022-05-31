@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="ChromeTest(failed)">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="Verifysource.TestNg">
+        <methods>
+          <include name="selectbagpacks"/>
+          <include name="verifyloginpage"/>
+          <include name="logoutfrombrowser"/>
+          <include name="clearobject"/>
+          <include name="selectitem"/>
+          <include name="closebrowser"/>
+          <include name="createobjects"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- Verifysource.TestNg -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
