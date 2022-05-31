@@ -12,8 +12,10 @@ public class Simplepro {
 		
 		WebDriver driver=new ChromeDriver();
 		
+		
+		
 		driver.get("https://m.facebook.com/home.php?_rdr");
-
+System.out.println("git");
 	}
 
 }
